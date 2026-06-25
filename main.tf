@@ -71,7 +71,10 @@ resource "aws_security_group" "web_sg" {
   }
 
   tags = {
-    Name = "project1-web-sg"
+    Name        = "project1-web-sg"
+    Environment = "Development"
+    Project     = "Capstone Project 1"
+    ManagedBy   = "Terraform"
   }
 }
 
