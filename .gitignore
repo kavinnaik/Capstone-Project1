@@ -1,6 +1,6 @@
-.terraform/
-.terraform.lock.hcl
 *.tfstate
 *.tfstate.*
-crash.log
+*.tfvars
 *.pem
+.terraform/
+.terraform.lock.hcl
