@@ -29,7 +29,7 @@ data "aws_ami" "aws-linux" {
   filter {
     name   = "architecture"
     values = ["x86_64"]
-  } 
+  }
 }
 
 # NETWORKING
